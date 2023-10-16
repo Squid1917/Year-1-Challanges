@@ -29,6 +29,8 @@ def Program():
                     else:
                         if CheckInput("Is It an Ali-A meme Y/N: "):
                             print(f"Your Dino is {Dino[5]}")
+                        else:
+                            print("Your Dino Is Spinosaurus")
 
 
 while True:
