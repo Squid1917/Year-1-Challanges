@@ -1,0 +1,25 @@
+Cherry + Almond Cake 
+['Cherry', 'Almond', 'Sugar', 'Flour', 'Butter', 'Egg'] 
+['300', '50', '300', '300', '300', '6'] 
+['g', 'ml', 'g', 'g', 'g', '']
+8 -- 
+Cherry + Almond Cake 1
+['Cherry', 'Almond', 'Sugar', 'Flour', 'Butter', 'Egg'] 
+['300', '50', '300', '300', '300', '6'] 
+['g', 'ml', 'g', 'g', 'g', '']
+8 -- 
+Cherry + Almond Cake 2
+['Cherry', 'Almond', 'Sugar', 'Flour', 'Butter', 'Egg'] 
+['300', '50', '300', '300', '300', '6'] 
+['g', 'ml', 'g', 'g', 'g', 'Eggs']
+8 -- 
+Cherry + Almond Cake 3
+['Cherry', 'Almond', 'Sugar', 'Flour', 'Butter', 'Egg'] 
+['300', '50', '300', '300', '300', '6'] 
+['g', 'ml', 'g', 'g', 'g', '']
+8 -- 
+Cherry + Almond Cake 4
+['Cherry', 'Almond', 'Sugar', 'Flour', 'Butter', 'Egg'] 
+['300', '50', '300', '300', '300', '6'] 
+['g', 'ml', 'g', 'g', 'g', '']
+8 --
