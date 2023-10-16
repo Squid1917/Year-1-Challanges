@@ -12,8 +12,7 @@ def Menu(Message, ChoiceA, ChoiceB):
 
 def ReadRecipe():
     RecipeName = input("Enter Recipe Name: ")
-    NewServingSize = int(input("Enter Serving Size: "))
-    Recipes = open("Python\Recipes.txt", "r").read().split("--")
+    Recipes = open("Recipes.txt", "r").read().split("--")
     Recipe = []
     for i in range(Recipes.__len__()):
         Recipes[i] = Recipes[i].split("\n")
@@ -22,22 +21,16 @@ def ReadRecipe():
     if(Recipe == []):
         ReadRecipe()
         return
-    
+
     IngredientNames = literal_eval(Recipe[1])
-    IngredientAmounts = list(map(int,literal_eval(Recipe[2])))
+    IngredientAmounts = literal_eval(Recipe[2])
     IngredientUnits = literal_eval(Recipe[3])
-    ServingSize = int(Recipe[4])
-    print(f"For a {RecipeName} for {NewServingSize} people you will need:")
-    
-    for i in range(IngredientAmounts.__len__()):
-        IngredientAmounts[i] = IngredientAmounts[i] / ServingSize * NewServingSize
+    print(f"Recipe Name: {Recipe[0]}")
+    for i in range(IngredientNames.__len__()):
         print(f"{IngredientAmounts[i]} {IngredientUnits[i]} of {IngredientNames[i]}")
-
-
 
 def SaveRecipe():
     RecipeName = input("Enter recipe name: ")
-    ServingSize = int(input("Enter Serving Size: "))
     IngredientNames = []
     IngredientAmounts = []
     IngredientUnits = []
@@ -52,8 +45,7 @@ def SaveRecipe():
     f.writelines(f"{RecipeName}\n")
     f.writelines(f"{IngredientNames}\n")
     f.writelines(f"{IngredientAmounts}\n")
-    f.writelines(f"{IngredientUnits}\n")
-    f.write(f"{ServingSize} -- \n")
+    f.writelines(f"{IngredientUnits} -- \n")
     f.close()
 
 
