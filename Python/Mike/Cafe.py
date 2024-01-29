@@ -17,3 +17,6 @@ while True: #? Loop forever
 
 for Item in CurrentItems:  #? Loop over basket
     TotalPrice += Prices[Item] #? Total the final price
+    print(f"{Item} is £{Prices[Item]}")  #? Print Receipt
+
+print(f"Total: £{TotalPrice}")  #? Output total price
