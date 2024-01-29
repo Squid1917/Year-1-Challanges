@@ -39,18 +39,18 @@ def ViewStudent(Students,ID_Lookup):
             return Student
 
 def PrintStudent(Student):
-    print(Student)
-    print("ID: {} Forename: {} Surname: {} Number: {} Address: {}".format(*Student))
+    if Student:
+        print("ID: {} Forename: {} Surname: {} Number: {} Address: {}".format(*Student))
 
 def Menu():
     Students = GetStudents()
-    print(Students)
     while True:
         Selection = int(input("Select Option \n\n"
             "1. View Student \n"
             "2. Add Student \n"
             "3. Save Students \n"
             "4. Print Students \n"
+            "5. Exit \n"
             ))
         if Selection == 1:
             PrintStudent(ViewStudent(Students,input("Enter Student ID:")))
@@ -60,6 +60,8 @@ def Menu():
             SaveStudents(Students)
         elif Selection == 4:
             print(Students)
+        elif Selection == 5:
+            exit()
         
 
 
