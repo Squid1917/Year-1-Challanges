@@ -1,0 +1,9 @@
+Room ID,Type,Cost,Occupier,Beds,Persons
+1,Basic,100,Empty,2,2
+2,Basic,100,Empty,2,2
+3,Basic,130,Empty,2,3
+4,Advanced,150,Empty,3,4
+5,Advanced,150,Empty,3,4
+6,Advanced,160,Empty,3,4
+7,Advanced,170,Empty,3,4
+8,Premium,250,Empty,4,6
