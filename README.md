@@ -116,16 +116,16 @@ Method Table 
 
 |**Method Name** |**Input** |**Process** |**Output** |
 | :- | :- | :- | :- |
-|GetRooms||||
-|ValidInput||||
-|CastVariable||||
-|SaveRooms||||
-|PrintRooms||||
-|ViewRooms||||
-|PrintRoom||||
-|ViewBookings||||
-|AddBooking||||
-|AddRoom|List Of Rooms|||
+|GetRooms|N/a|gathers the list of rooms|output all room details|
+|ValidInput|anything|validate it that its acceptable|output if it is|
+|CastVariable|variable and a datatype|nicely convert to that datatype|the variable|
+|SaveRooms|updated rooms|saved the rooms to disk|n/a|
+|PrintRooms|n/a|prints all the room details|pritns all the room details|
+|ViewRooms|n/a|view all available rooms|pritns the availbalbe rooms|
+|PrintRoom|a rooms|n/a|prints the room|
+|ViewBookings|list of rooms| returns the not empty rooms|prints rooms|
+|AddBooking|list of rooms|change room to be occupied|n/a|
+|AddRoom|List Of Rooms|adds a new room|n/a|
 
 
 
